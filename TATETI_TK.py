@@ -45,9 +45,8 @@ def confirm_position(num):
     great_list[2] ==  great_list[4] == great_list[6] and great_list[2] !='    '):
         messagebox.showinfo('Triunfo','El ganador es: '+'x' if not tx else 'El ganador es: '+'o')
         gamefinished=False
-
-    gamefinished=False
-    if not gamefinished:
+        
+    if gamefinished:
         if '    ' not in great_list:
             messagebox.showinfo('Tablas','Empate')
 
