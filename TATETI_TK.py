@@ -2,7 +2,7 @@ from tkinter import*
 from tkinter import messagebox
 
 root=Tk()
-root.title("TATETI")
+root.title("TATETI 1.0")
 root.resizable(0,0)
 root.geometry("140x235")
 root.config(bg="#4C508C")
